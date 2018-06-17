@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav-wrapper {
+  padding: 0 20px;
+}
+
+.brand-logo {
+  letter-spacing: 1px;
+}
+
+.bio {
+  font-size: 28px;
+  padding: 20px;
+}
