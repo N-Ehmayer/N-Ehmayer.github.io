@@ -1,4 +1,6 @@
 body {
+  background: url("../static/bernardo-santos-unsplash.jpg");
+  background-size: cover;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -12,11 +14,28 @@ main {
   padding: 0 20px;
 }
 
-.brand-logo {
-  letter-spacing: 1px;
+.nav-links {
+  color: grey;
+}
+
+.bio-container {
+  color: white;
+  text-align: center;
+}
+
+.name {
+  letter-spacing: 2px;
+  margin-bottom: 15px;
 }
 
 .bio {
-  font-size: 28px;
-  padding: 20px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 200;
+  border-top: grey 1px solid;
+  padding: 15px 190px 190px 190px;
+}
+
+.container {
+  font-size: 10px;
 }
