@@ -21,10 +21,13 @@ main {
 .bio-container {
   color: white;
   text-align: center;
+  margin-top: 420px;
+  margin-right: 180px;
+  margin-left: 180px;
 }
 
 .name {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-bottom: 15px;
 }
 
@@ -33,7 +36,7 @@ main {
   font-size: 20px;
   font-weight: 200;
   border-top: grey 1px solid;
-  padding: 15px 190px 190px 190px;
+  padding: 15px 12px 12px 12px;
 }
 
 .container {
