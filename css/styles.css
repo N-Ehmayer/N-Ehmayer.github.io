@@ -1,44 +1,65 @@
+
 body {
   background: url("../static/bernardo-santos-unsplash.jpg");
   background-size: cover;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
 }
 
-main {
-  flex: 1 0 auto;
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  color: #f8f5ff;
 }
 
-.nav-wrapper {
-  padding: 0 20px;
+li, span, footer {
+  font-family: 'Roboto', sans-serif;
+  color: #f8f5ff;
 }
 
-.nav-links {
-  color: grey;
+h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-top: #607d8b 1px solid;
+  padding: 25px 0px 25px 0px;
 }
 
 .bio-container {
-  color: white;
   text-align: center;
-  margin-top: 420px;
-  margin-right: 180px;
-  margin-left: 180px;
+  margin-top: 560px;
+  margin-right: 250px;
+  margin-left: 250px;
 }
 
-.name {
-  letter-spacing: 3px;
-  margin-bottom: 15px;
+.arrow {
+  color: #9ff0ff;
+  text-align: center;
+  cursor: pointer;
+}
+.arrow:hover {
+  color: #607d8b;
 }
 
-.bio {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 200;
-  border-top: grey 1px solid;
-  padding: 15px 12px 12px 12px;
+.collapsible {
+  width: 50%;
+  margin: 100px auto;
 }
 
-.container {
+.collapsible-header {
+  display: relative;
+  margin: 0 auto;
+}
+
+.skills-list {
+  list-style: disc outside none;
+}
+
+
+footer {
   font-size: 10px;
+  margin-top: 30px; 
 }

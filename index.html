@@ -4,6 +4,8 @@
   <title>Nic-Ehmayer</title>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link rel="stylesheet" type="text/css" href="css/styles.css"/>
@@ -14,11 +16,6 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper blue-grey darken-3">
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a class="grey-text text-lighten-1" href="#">About</a></li>
-            <li><a class="grey-text text-lighten-1" href="#">Skills</a></li>
-            <li><a class="grey-text text-lighten-1" href="#">Projects</a></li>
-          </ul>
         </div>
       </nav>
     </div>
@@ -26,11 +23,37 @@
 
   <main>
     <div class="bio-container">
-      <h1 class="name">Nic Ehmayer</h1>
-      <p class="bio">
-        I'm a full stack web developer and hobbyist game developer. After working customer service for a few years I decided it wasn't enough, I wanted to spend my time building cool projects and pursuing my interest in game development. I started out with Lighthouse Labs, and am now spending my time learning game development tools and building web apps.
-      </p>    
+      <h1>Nic Ehmayer</h1>
+      <h2>Web Developer - Game Designer</h2>    
+      <i class="large material-icons arrow">keyboard_arrow_down</i>
     </div>
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header blue-grey darken-4"><i class="material-icons">filter_drama</i>About</div>
+        <div class="collapsible-body blue-grey darken-3">
+          <span>
+            I'm a full stack web developer and have just recently began my journey into the world of game devolopment. I like to spend my time building cool projects for the web, as well as furthuring my knowledge and keeping up with the latest and greatest in tech. I started out with Lighthouse Labs
+          </span>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header blue-grey darken-4"><i class="material-icons">place</i>Skills</div>
+        <div class="collapsible-body blue-grey darken-3">
+          <span>
+            Lorem ipsum dolor sit amet.
+            <ol class="skills-list">
+              <li>Javascript</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+            </ol>
+          </span>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header blue-grey darken-4"><i class="material-icons">whatshot</i>Projects</div>
+        <div class="collapsible-body blue-grey darken-3"><span>Lorem ipsum dolor sit amet.</span></div>
+      </li>
+    </ul>
   </main>
 
   <footer class="page-footer blue-grey darken-3">
@@ -42,6 +65,6 @@
     </div>
   </footer>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript" src="./app.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
 </body>
 </html>
