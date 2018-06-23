@@ -23,14 +23,14 @@
         <div class="collapsible-header blue-grey darken-4"><i class="material-icons">filter_drama</i>About</div>
         <div class="collapsible-body blue-grey darken-3">
           <span>
-            Hi, I'm Nic! A full stack web developer and sucker for aesthetic and intuiative UI/UX design. I started my journey at Lighthouse Labs, and now spend most of my time building cool projects for the web, as well as furthuring my knowledge and keeping up with the latest and greatest in tech. When I'm not coding you'll most likely find me playing a game of shinny at the local rink or hanging out in Discord while playing a match of Rocket League.
+            Hi, I'm Nic! A full stack web developer with a passion for aesthetic and intuiative UI/UX design. I started my journey at Lighthouse Labs, and now spend most of my time building cool projects for the web, as well as furthuring my knowledge and keeping up with the latest and greatest in tech. When I'm not coding you'll most likely find me playing a game of shinny at the local rink or hanging out in Discord while playing a match of Rocket League.
           </span>
         </div>
       </li>
       <li>
         <div class="collapsible-header blue-grey darken-4"><i class="material-icons">place</i>Skills</div>
         <div class="collapsible-body blue-grey darken-3 row" id="skills-container">
-          <div class="col">
+          <div class="col skills-cat">
             <h3>Languages</h3>
             <ol class="skills-list">
               <li>Javascript</li>
@@ -39,7 +39,7 @@
               <li>Ruby</li>
             </ol>
           </div>
-          <div class="col" id="middle-col">
+          <div class="col skills-cat" id="middle-col">
             <h3>Front-End</h3>
             <ol class="skills-list">
               <li>AJAX</li>
@@ -54,9 +54,9 @@
               <li>WebSockets</li>
             </ol>
           </div>
-          <div class="col">
+          <div class="col skills-cat">
             <h3>Back-End</h3>
-            <ol class="skills-list">
+            <ul class="skills-list">
               <li>Express</li>
               <li>Git</li>
               <li>Mac-OSX</li>
@@ -65,13 +65,61 @@
               <li>PostgreSQL</li>
               <li>Ruby-on-Rails</li>
               <li>SQLite</li>
-            </ol>
+            </ul>
           </div>
         </div>
       </li>
       <li>
         <div class="collapsible-header blue-grey darken-4"><i class="material-icons">whatshot</i>Projects</div>
-        <div class="collapsible-body blue-grey darken-3"><span>Lorem ipsum dolor sit amet.</span></div>
+        <div class="collapsible-body blue-grey darken-3">
+          <div id="projects-container">
+            <ul>
+              <li class="project-container">
+                <img id="slug" src="static/slug-feed-logo.png">
+                <h3 class="project-name">Slug Feed</h3>
+                <span class="description">
+                  A React application where users can read and comment on articles or specific article sections, as well as revieve sentiment analysis for said comments.
+                </span>
+              </li>
+              <li class="project-container">
+                <img src="static/chatty.png">
+                <h3 class="project-name">Chatty App</h3>
+                <span class="description">
+                  A real-time chat application I built to familiarize myself with Webpack and Websockets.  
+                </span>
+              </li>
+              <li class="project-container">
+                <img src="static/tweeter.png">
+                <h3 class="project-name">Tweeter</h3>
+                <span class="description">
+                  A simple Twitter clone made using jQuery.
+                </span>
+              </li>
+              <li class="project-container">
+                <img src="static/breakout.png">
+                <h3 class="project-name">Breakout</h3>
+                <span class="description">
+                  A Breakout clone I made as an introduction to using sprites.
+                </span>
+              </li>
+              <li class="project-container">
+                <img src="static/pong.png">
+                <h3 class="project-name">Not Pong</h3>
+                <span class="description">
+                  My very first endeavour into the world of HTML + JS game design. I had a lot of fun creating and implementing the sound effects.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header blue-grey darken-4"><i class="material-icons">whatshot</i>Contact</div>
+        <div class="collapsible-body blue-grey darken-3">
+          <span>
+            Lorem ipsum dolor sit amet.
+          </span>
+        </div>
       </li>
     </ul>
   </main>
