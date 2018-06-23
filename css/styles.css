@@ -92,16 +92,14 @@ img {
   margin: 20px auto;
 }
 
-#slug {
-  margin: 20px auto;
-}
-
-#bird {
-  margin: 0 auto;
-}
-
 .project-name {
   margin-top: 5px;
+}
+
+.contact-item {
+  font-size: 18px;
+  border-bottom: #607d8b 1px solid;
+  padding: 5px;
 }
 
 footer {
