@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Position intro card dynamically on page load based on screen height.
   const introContainer = document.querySelector('.bio-container');
-  introContainer.style.marginTop = `${screen.height - 350}px`;
+  introContainer.style.marginTop = `${screen.height - 375}px`;
 });
